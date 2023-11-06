@@ -1,66 +1,15 @@
-## Foundry
+# Learn Solidity with Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+_A "Test Driven Development" approach to learning Solidity, using Foundry tests._
 
-Foundry consists of:
+Open a subfolder in the `src/` folder to access the contract and it's associater README file. Read the instruction and create the contract that solves the challenge. Follow the numbers in the `src/` folders.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+There is a corresponding folder number in the `test/` folder. To help you solve the challenge, you can read the test spec and try to reverse engineer the contract.
 
-## Documentation
+To ensure that you solved the challenge, run `make test ID` in the root of the project, where the \*`ID` is the id number of the challenge.
 
-https://book.getfoundry.sh/
+For example: run `make test 001` to run the tests of the challenge 001. If they pass, congratulation, move to the next challenge. If not, keep trying.
 
-## Usage
+This is for learning purposes. Please do not give up! Look in the internet about ideas and things you might not know. Some challenges have hints in the README file which can help you.
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+In case you can't find the solution, and you feel depressed, have a look in the `solutions/` folder then in the id of the challenge. But do not despair, make a search about what you missed and try experimenting until you grasp what was missing.
