@@ -6,7 +6,7 @@ Open a subfolder in the `src/` folder to access the contract and it's associater
 
 There is a corresponding folder number in the `test/` folder. To help you solve the challenge, you can read the test spec and try to reverse engineer the contract.
 
-To ensure that you solved the challenge, run `make test ID` in the root of the project, where the \*`ID` is the id number of the challenge.
+To ensure that you solved the challenge, run `make test id=ID` in the root of the project, where the \*`ID` is the id number of the challenge.
 
 For example: run `make test 001` to run the tests of the challenge 001. If they pass, congratulation, move to the next challenge. If not, keep trying.
 
@@ -14,6 +14,8 @@ This is for learning purposes. Please do not give up! Look in the internet about
 
 ## Hints & Solutions
 
-Some challenges have hints in the corresponding `tests/CHALLENGE_ID/` folder, called `HINT.md`.
+Some challenges have hints in the corresponding `src/CHALLENGE_ID/` folder, called `HINT.md`.
+
+The hint is also available by running `make hint id=001`
 
 In case you can't find the solution, have a look in the `solutions/` folder then in the id of the challenge. But do not despair, make a search about what you missed and try experimenting until you grasp what was missing.

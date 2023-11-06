@@ -1,3 +1,5 @@
+---
+
 The contract should have the following structure:
 
 ```solidity

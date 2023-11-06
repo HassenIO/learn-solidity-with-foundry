@@ -6,6 +6,6 @@ This is a very basic Smart Contract that should accept a function to set the con
 
 ## Acceptance test
 
-Associated tests are located in the `tests/001/` folder.
+Associated tests are located in the `test/001/` folder.
 
 In the root of the project, all tests should pass when running `make test 001`
