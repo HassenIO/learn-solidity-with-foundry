@@ -46,4 +46,12 @@ This repo will evolve with more and more challenges. How can you be updated? Eas
 
 Perfect! Please fork this repo in your Github account, create a new challenge, then push it and make a Pull Request.
 
-We will discuss the challenge, and merge it to the main repo if it's satisfying 🙌 Please do not forget to add a credit to your GitHub repo or X profile.
+Tip: Run the following make command in the root of the project to create a new challenge:
+
+```sh
+make new-challenge id=XXXX
+```
+
+With `XXXX` the id of the new challenge.
+
+When you push the new challenge, we will discuss it, and merge it to the master branch if it's OK 🙌 Please do not forget to add a credit to your GitHub or X profile.
