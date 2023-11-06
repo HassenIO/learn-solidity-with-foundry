@@ -6,6 +6,6 @@ This is a very basic Smart Contract that should accept a function to set the con
 
 ## Acceptance test
 
-Associated tests are located in the `test/001/` folder.
+All associated tests located in the `$(PWD)/tests/` folder should pass.
 
-In the root of the project, all tests should pass when running `make test 001`
+In your terminal, `cd` into this folder, then run `forge test` and make all tests pass 💪
