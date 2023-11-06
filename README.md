@@ -10,6 +10,10 @@ To ensure that you solved the challenge, run `make test ID` in the root of the p
 
 For example: run `make test 001` to run the tests of the challenge 001. If they pass, congratulation, move to the next challenge. If not, keep trying.
 
-This is for learning purposes. Please do not give up! Look in the internet about ideas and things you might not know. Some challenges have hints in the README file which can help you.
+This is for learning purposes. Please do not give up! Look in the internet about ideas and things you might not know.
 
-In case you can't find the solution, and you feel depressed, have a look in the `solutions/` folder then in the id of the challenge. But do not despair, make a search about what you missed and try experimenting until you grasp what was missing.
+## Hints & Solutions
+
+Some challenges have hints in the corresponding `tests/CHALLENGE_ID/` folder, called `HINT.md`.
+
+In case you can't find the solution, have a look in the `solutions/` folder then in the id of the challenge. But do not despair, make a search about what you missed and try experimenting until you grasp what was missing.
